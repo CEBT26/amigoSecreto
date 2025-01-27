@@ -29,6 +29,7 @@ function agregarAmigo()
     }else{
         nombreAmigos.push(nombreDeUsuario); //Agrega el nombre en el último espacio
 
+        asignarTextoElemento("#resultado", "");
         asignarTextoElemento("#listaAmigos", `${nombreAmigos}`); 
     
         console.log(nombreAmigos); //Imprime el nombre en la consola
